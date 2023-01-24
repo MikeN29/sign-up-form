@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+}
+
+
+
+#sideBar {
+    background-image: url("./images/backgroundcopy.jpg");
+    width: 300px;
+    height: 900px;
+}
+
+#sideBar > p {
+    color: white;
+    position: relative;
+    top: 775px;
+    padding: 0;
+    font-size: 12px;
+    font-weight: 900;
+    text-align: center;
+
+}
+
+#logoDiv {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 70px;
+    position: relative;
+    top: 200px;
+    text-align: center;
+
+}
+
+#logoDiv > h2 {
+    color: white;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    font-family: 'Unbounded', cursive;
+    font-size: 26px;
+}
+
+#logoIMG {
+    width: 30px;
+}
