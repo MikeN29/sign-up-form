@@ -12,6 +12,7 @@ body {
     background-image: url("./images/backgroundcopy.jpg");
     width: 400px;
     height: 970px;
+    
 }
 
 #sideBar > p {
@@ -52,6 +53,7 @@ body {
 #mainBar {
     width: 100%;
     height: 970px;
+    background-color: aqua;
 }
 
 #topBar {
@@ -69,15 +71,22 @@ body {
 
 #middleBar {
     height: 30%;
-    padding-left: 50px;
 }
 
+#middleBar > h2, form {
+    padding-left: 50px;
+}
 
 #bottomBar {
     height: 35%;
+}
+
+#bottomBarContent {
     padding-left: 50px;
     padding-top: 50px;
 }
+
+
 
 form {
     width: 800px;
@@ -94,7 +103,7 @@ label, input {
 }
 
 label {
-    margin-bottom: 20px;
+    
 }
 
 input {
@@ -104,7 +113,12 @@ input {
 button {
     height: 50px;
     width: 200px;
-
+    background-color: #673619;
+    font-weight: bold;
+    color: white;
+    border-radius: 15px;
 }
+
+
 
 
